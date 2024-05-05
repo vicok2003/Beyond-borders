@@ -4,8 +4,6 @@ import logo from '../Img_assets/Beyond-Borders-logo-Teal.svg';
 import linkedinIcon from '../Img_assets/linkedin logo.svg'; 
 import instagramIcon from '../Img_assets/Instagram logo.svg'; 
 import linkTree from '../Img_assets/linktree.svg';
-import leftBoxImage from '../Img_assets/Block01.png' ;
-import rightBoxImage from '../Img_assets/Block02.png';
 import block from '../Img_assets/Blocks.svg'; 
 
 
@@ -36,13 +34,12 @@ export default function ComingSoon() {
         </div>
       </div>
 
-
+      <img src={block} alt="building blocks" className="blocks"></img>
+      
+      {/* 
       <img src={leftBoxImage} alt="Left Box" className="left-box" />
       <img src={rightBoxImage} alt="Right Box" className="right-box" />
-
-
-      <img src={block} alt="building blocks" className="blocks"></img>
-      {/* <img src={longBlock} alt="Right Box" className="long-block" />
+      <img src={longBlock} alt="Right Box" className="long-block" />
       <img src={tractorImg} alt="Tractor on site" className="tractor" />
 
 
@@ -60,7 +57,9 @@ export default function ComingSoon() {
       <div className="grey-E greys"></div>
       <div className="grey-F greys"></div>
       <div className="grey-G greys"></div>
-      </div> */}
+      </div> 
+      
+      */}
 
     </div>
   );
