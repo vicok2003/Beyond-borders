@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url('../fonts/Archivo-VariableFont_wdth\,wght.ttf') format('truetype');
+   
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+  
+  /* Style for the header nav */
+  .top-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px 30px; 
+    margin-top: 16px;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    width: 108.21px; 
+    height: 31.22px;
+  }
+  
+  /* Style for the notify me button */
+  .notify-me-btn {
+    padding: 8px 16px; 
+    background-color: white;
+    border: 1.8px solid #06937F;
+    border-radius: 8px;
+    color: #06937F;
+    font-size: 14px; 
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .notify-me-btn:hover {
+    background-color: #06937F;
+    color: white;
+  }
+
+  .comingsoon-message{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .heading{
+    height: 70px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 69.63px;
+    color: #1D2739;
+  }     
+
+  .paragraph{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #344054;
+    width: 760px;
+    margin: auto;
+    padding: 20px 0 12px;
+  }
+
+  .social-icons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px; 
+    margin: auto;
+    padding-top: 36px;
+  }
+
+  .social-icons-container img{
+    height: 18px;
+    width: 18px;
+  }
+
+
+  .left-box {
+    position: absolute;
+    top: 63%;
+    left: 0;
+    margin-left: 24px;
+    transform: translateY(-50%) rotate(-5deg);
+    display: none;
+  }
+  
+  .right-box {
+    position: absolute;
+    top: 68%;
+    right: 0;
+    margin-right: 24px;
+    transform: translateY(-50%) rotate(5deg); 
+    display: none;
+  }
+  
+  .long-block{
+    position: absolute;
+    top: 92%;
+    right: 26%;
+  }
+
+  .tractor{
+    position: absolute;
+    top: 83%;
+    right: 50%;
+  }
+
+  .greys{
+    background-color: #eee;
+    height: 80px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .greybox-one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+  }
+  .greybox-two{
+    display: flex;
+    justify-content: space-between;
+  }
+  .greybox-three{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .grey-A{
+    width: 343px;
+  }
+  .grey-B{
+    width: 500px;
+  }
+  .grey-C{
+    width: 390px;
+  }   
+  .grey-D{
+    width: 669px;
+  }
+  .grey-E{
+    width: 500px;
+  }
+  .grey-F{
+    width: 600px;
+  } 
+  .grey-G{
+    width: 400px;
+  } 
+
+  
+
+
+  @media (max-width: 768px) {
+
+    .top-header{
+        padding: 20px;
+    }
+
+    .heading{
+        font-size: 50px;
+    }
+
+    .paragraph{
+        width: 370px;
+    }
+
+    
+    .long-block{
+      display: none;
+    }
+
+    .tractor{
+      display: none;
+    }
+
+    .greybox-one{
+      display: none;
+    }
+    .greybox-two{
+      display: none;
+    }
+    .greybox-three{
+      display: none;
+    }
+    
+    .left-box{
+      display: block;
+      top: 20%;
+    }
+
+    .right-box{
+      display: block;
+      top: 80%;
+      margin-right: 0;
+    }
+
+  }
+  @media (max-width: 320px) {
+
+    .top-header{
+        padding: 20px;
+    }
+
+    .heading{
+        font-size: 40px;
+    }
+
+    .paragraph{
+        width: 300px;
+    }
+
+    .social-icons-container{
+      margin-bottom: 10px;
+    }
+
+    .long-block{
+      display: none;
+    }
+
+    .tractor{
+      display: none;
+    }
+
+    .greybox-one{
+      display: none;
+    }
+    .greybox-two{
+      display: none;
+    }
+    .greybox-three{
+      display: none;
+    }
+    
+    .left-box{
+      display: none;
+    }
+
+    .right-box{
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 375px) {
+    .right-box{
+      top: 86%;
+    }
+  }
+  
