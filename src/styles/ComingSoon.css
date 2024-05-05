@@ -27,7 +27,7 @@ body{
     display: flex;
     justify-content: space-between; 
     align-items: flex-start; 
-    padding: 20px 30px; 
+    padding: 2em 6em; 
     margin-top: 16px;
   }
   
@@ -82,14 +82,14 @@ body{
   .social-icons-container{
     display: flex;
     justify-content: space-between;
-    width: 200px; 
+    width: 150px; 
     margin: auto;
     padding-top: 36px;
   }
 
   .social-icons-container img{
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
   }
 
 
@@ -113,13 +113,13 @@ body{
   
   .long-block{
     position: absolute;
-    top: 92%;
+    top: 96%;
     right: 26%;
   }
 
   .tractor{
     position: absolute;
-    top: 83%;
+    top: 87%;
     right: 50%;
   }
 
@@ -206,13 +206,15 @@ body{
     
     .left-box{
       display: block;
-      top: 20%;
+      top: 35%;
+      z-index: -3;
     }
 
     .right-box{
       display: block;
-      top: 80%;
-      margin-right: 0;
+      top: 60%;
+      margin-right: 4px;
+      z-index: -3;
     }
 
   }
@@ -263,8 +265,40 @@ body{
   }
 
   @media (max-width: 375px) {
-    .right-box{
-      top: 86%;
+    .left-box{
+      display: block;
+      top: 35%;
+      z-index: -3;
     }
+
+    .right-box{
+      display: block;
+      top: 65%;
+      margin-right: 4px;
+      z-index: -3;
+    }
+
   }
-  
+
+  @media (max-width: 1280px) {
+    .grey-B{
+      width: 446px;
+    }
+
+    .grey-D{
+      width: 595px;
+    }
+
+    .long-block{
+    position: absolute;
+    top: 76%;
+    right: 22%;
+  }
+
+  .tractor{
+    position: absolute;
+    top: 68%;
+    right: 47.2%;
+  }
+  }
+
