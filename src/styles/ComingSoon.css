@@ -47,13 +47,15 @@ body{
     font-size: 14px; 
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.4s ease, color 0.3s ease;
   }
+
   
   .notify-me-btn:hover {
     background-color: #06937F;
     color: white;
   }
+  
 
   .comingsoon-message{
     text-align: center;
@@ -90,6 +92,12 @@ body{
   .social-icons-container img{
     height: 20px;
     width: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .social-icons-container img:hover {
+    transform: scale(1.6);
+    /* box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);  */
   }
 
 
@@ -111,62 +119,9 @@ body{
     display: none;
   }
   
-  .long-block{
-    position: absolute;
-    top: 96%;
-    right: 26%;
+  .blocks{
+    margin-top: 5em;
   }
-
-  .tractor{
-    position: absolute;
-    top: 87%;
-    right: 50%;
-  }
-
-  .greys{
-    background-color: #eee;
-    height: 80px;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    margin-top: 10px;
-  }
-
-  .greybox-one{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20%;
-  }
-  .greybox-two{
-    display: flex;
-    justify-content: space-between;
-  }
-  .greybox-three{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-  }
-  
-  .grey-A{
-    width: 343px;
-  }
-  .grey-B{
-    width: 500px;
-  }
-  .grey-C{
-    width: 390px;
-  }   
-  .grey-D{
-    width: 669px;
-  }
-  .grey-E{
-    width: 500px;
-  }
-  .grey-F{
-    width: 600px;
-  } 
-  .grey-G{
-    width: 400px;
-  } 
 
   
 
@@ -185,25 +140,6 @@ body{
         width: 370px;
     }
 
-    
-    .long-block{
-      display: none;
-    }
-
-    .tractor{
-      display: none;
-    }
-
-    .greybox-one{
-      display: none;
-    }
-    .greybox-two{
-      display: none;
-    }
-    .greybox-three{
-      display: none;
-    }
-    
     .left-box{
       display: block;
       top: 35%;
@@ -236,24 +172,6 @@ body{
       margin-bottom: 10px;
     }
 
-    .long-block{
-      display: none;
-    }
-
-    .tractor{
-      display: none;
-    }
-
-    .greybox-one{
-      display: none;
-    }
-    .greybox-two{
-      display: none;
-    }
-    .greybox-three{
-      display: none;
-    }
-    
     .left-box{
       display: none;
     }
@@ -263,7 +181,6 @@ body{
     }
 
   }
-
   @media (max-width: 375px) {
     .left-box{
       display: block;
@@ -280,25 +197,4 @@ body{
 
   }
 
-  @media (max-width: 1280px) {
-    .grey-B{
-      width: 446px;
-    }
-
-    .grey-D{
-      width: 595px;
-    }
-
-    .long-block{
-    position: absolute;
-    top: 76%;
-    right: 22%;
-  }
-
-  .tractor{
-    position: absolute;
-    top: 68%;
-    right: 47.2%;
-  }
-  }
 

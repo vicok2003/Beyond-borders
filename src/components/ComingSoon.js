@@ -6,8 +6,8 @@ import instagramIcon from '../Img_assets/Instagram logo.svg';
 import linkTree from '../Img_assets/linktree.svg';
 import leftBoxImage from '../Img_assets/Block01.png' ;
 import rightBoxImage from '../Img_assets/Block02.png';
-import longBlock from '../Img_assets/Block03.png';
-import tractorImg from '../Img_assets/Building.png';
+import block from '../Img_assets/Blocks.svg'; 
+
 
 export default function ComingSoon() {
   return (
@@ -39,7 +39,10 @@ export default function ComingSoon() {
 
       <img src={leftBoxImage} alt="Left Box" className="left-box" />
       <img src={rightBoxImage} alt="Right Box" className="right-box" />
-      <img src={longBlock} alt="Right Box" className="long-block" />
+
+
+      <img src={block} alt="building blocks" className="blocks"></img>
+      {/* <img src={longBlock} alt="Right Box" className="long-block" />
       <img src={tractorImg} alt="Tractor on site" className="tractor" />
 
 
@@ -57,7 +60,7 @@ export default function ComingSoon() {
       <div className="grey-E greys"></div>
       <div className="grey-F greys"></div>
       <div className="grey-G greys"></div>
-      </div>
+      </div> */}
 
     </div>
   );
