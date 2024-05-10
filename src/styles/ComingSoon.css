@@ -16,6 +16,11 @@
     padding: 0;
 }
 
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
 body{
     /*background-color: #ffffff;*/
     background-image: url('../Img_assets/BG.svg');
@@ -37,25 +42,38 @@ body{
     width: 108.21px; 
     height: 31.22px;
   }
+
+   .contact-us{
+    color: #06937F;
+    font-size: 14px;
+    font-weight: 600;
+  }
   
   /* Style for the notify me button */
-  .notify-me-btn {
-    padding: 8px 16px; 
-    background-color: white;
-    border: 1.8px solid #06937F;
+  .join-btn {
+    width: 204px;
+    height: 55px;
+    padding: 16px 24px;
+    background: #06937F;
+    color: #ffffff;
+    border: none;
     border-radius: 8px;
-    color: #06937F;
-    font-size: 14px; 
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.4s ease, color 0.3s ease;
+    margin-top: 36px;
+    box-shadow: inset 0 0 0 0 #ffffff ;
+    transition: ease-out 0.5s;
+  }
+
+  .join-btn:hover{
+    box-shadow: inset 204px  0 0 0 #ffffff;
+    cursor: pointer;
+    color: #06937F;
+    border: 1.5px solid #06937F;
   }
 
   
-  .notify-me-btn:hover {
-    background-color: #06937F;
-    color: white;
-  }
   
 
   .comingsoon-message{
@@ -85,7 +103,7 @@ body{
   .social-icons-container{
     display: flex;
     justify-content: space-between;
-    width: 150px; 
+    width: 100px; 
     margin: auto;
     padding-top: 36px;
   }

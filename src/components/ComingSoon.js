@@ -12,14 +12,12 @@ export default function ComingSoon() {
     <div className="coming-soon-container">
       <div className="top-header">
       <img src={logo} alt="Logo" className="logo" />
-      <a href="https://subscribepage.io/beyondbordersletters" target="_blank" rel="noopener noreferrer">
-        <button className="notify-me-btn">Notify Me</button>  
-      </a>
+      <a href=' hello@beyondbordersnet.com' target="_blank" rel="noopener noreferrer" className='contact-us'>Contact Us</a>
       </div>
 
       <div className="comingsoon-message">
         <h1 className="heading">Coming Soon!</h1>
-        <p className="paragraph">Our mission is to equip individuals with the skills, resources, mentorship, and community that they need to achieve their career and educational goals.</p>
+        <p className="paragraph">Beyond Borders is a digital Network for Black Professionals to advance their careers, passion and business.</p>
         
         <div className="social-icons-container">
           <a href="https://www.linkedin.com/company/beyond-borders-hq/" target="_blank" rel="noopener noreferrer">
@@ -32,6 +30,9 @@ export default function ComingSoon() {
             <img src={linkTree} alt="linkTree" />
           </a>
         </div>
+        <a href="https://subscribepage.io/beyondbordersletters" target="_blank" rel="noopener noreferrer">
+        <button className="join-btn ">Join the Community</button>  
+        </a>
       </div>
 
       <img src={block} alt="building blocks" className="blocks"></img>
